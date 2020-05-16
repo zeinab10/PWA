@@ -10,6 +10,7 @@ router.post("/api/transaction", ({ body }, res) => {
       res.status(400).json(err);
     });
 });
+fjjf
 
 router.post("/api/transaction/bulk", ({ body }, res) => {
   Transaction.insertMany(body)
